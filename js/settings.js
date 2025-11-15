@@ -50,10 +50,10 @@ $(document).ready(function () {
  #Progress Bar For Skills Page
  ========================================================================== */
 
-progressBar(90, $('#progressBar1'));
+progressBar(88, $('#progressBar1'));
 progressBar(85, $('#progressBar2'));
 progressBar(60, $('#progressBar3'));
-progressBar(100, $('#progressBar4'));
+progressBar(98, $('#progressBar4'));
 
 /* ==========================================================================
  #Mobile Menu
@@ -86,6 +86,7 @@ if (iPad > -1 || iPhone > -1 || iPod > -1)
         $('.totop-link').css('top', (window.pageYOffset + window.innerHeight - 39) + 'px');
     };
 }
+
 
 
 
